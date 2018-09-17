@@ -75,8 +75,13 @@
 				243EE517214CFBDD0094B017 /* AppDelegate.swift */,
 				243EE520214CFBDE0094B017 /* Assets.xcassets */,
 				243EE522214CFBDE0094B017 /* LaunchScreen.storyboard */,
+				244E82DF214FE1C2005999B7 /* Interaction Controllers */,
+				244E82E0214FE1CC005999B7 /* Animation Controllers */,
+				244E82DD214FE1A0005999B7 /* Data */,
 				243EE53C214CFE2B0094B017 /* Models */,
+				243EE53B214CFE1B0094B017 /* ViewModels */,
 				243EE539214CFE0C0094B017 /* Views */,
+				244E82DE214FE1BB005999B7 /* Helpers */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -106,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				243EE53A214CFE160094B017 /* Common */,
-				243EE53B214CFE1B0094B017 /* ViewModesl */,
 				243EE538214CFE050094B017 /* ViewControllers */,
 				243EE537214CFDFE0094B017 /* Storyboards */,
 			);
@@ -120,26 +124,46 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		243EE53B214CFE1B0094B017 /* ViewModesl */ = {
+		243EE53B214CFE1B0094B017 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ViewModesl;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		243EE53C214CFE2B0094B017 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				243EE53D214CFE3C0094B017 /* Service */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		243EE53D214CFE3C0094B017 /* Service */ = {
+		244E82DD214FE1A0005999B7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Service;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		244E82DE214FE1BB005999B7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		244E82DF214FE1C2005999B7 /* Interaction Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Interaction Controllers";
+			sourceTree = "<group>";
+		};
+		244E82E0214FE1CC005999B7 /* Animation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Animation Controllers";
 			sourceTree = "<group>";
 		};
 		32A34E79C3551CD12E16B7BB /* Frameworks */ = {
